@@ -38,7 +38,6 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
 Streamlit will print a local address, usually `http://localhost:8501`.
 
 ## Uploading your own labelled job dataset
@@ -76,7 +75,3 @@ CareerCompass/
 - The overlap score is not a probability of receiving an interview or job.
 - The built-in job examples are illustrative only. Use a real, appropriately licensed and representative dataset before making claims about model quality.
 - The app stores data locally in `careercompass.db`. Do not deploy a public shared instance with private user data without adding authentication, access controls, and a privacy review.
-
-## Resume note
-
-Describe only features you implemented and tested. Report model metrics only from a suitable evaluation dataset and clearly state how evaluation was performed.
